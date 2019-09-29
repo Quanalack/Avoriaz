@@ -20,9 +20,9 @@ namespace AvoriazWeb.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Gallery()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "A gallery of the pictures taken at Avoriaz.";
 
             return View();
         }
