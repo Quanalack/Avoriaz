@@ -13,9 +13,9 @@ namespace AvoriazWeb.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Map()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "The map of Avoriaz:";
 
             return View();
         }
