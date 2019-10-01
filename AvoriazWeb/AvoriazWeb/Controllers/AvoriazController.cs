@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace AvoriazWeb.Controllers
 {
-    public class HomeController : Controller
+    public class AvoriazController : Controller
     {
         public ActionResult Index()
         {
@@ -15,7 +15,7 @@ namespace AvoriazWeb.Controllers
 
         public ActionResult Map()
         {
-            ViewBag.Message = "The map OLD  of Avoriaz:";
+            ViewBag.Message = "The map of Avoriaz:";
 
             return View();
         }

@@ -142,6 +142,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AvoriazController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -159,6 +160,7 @@
     <Content Include="Content\Images\next.png" />
     <Content Include="Content\Images\prev.png" />
     <Content Include="Content\Images\town.jpg" />
+    <Content Include="Content\Images\worldMap.jpg" />
     <Content Include="Content\lightbox.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -192,6 +194,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Avoriaz.cshtml" />
     <None Include="Views\Home\Map.cshtml" />
     <Content Include="Views\Home\Gallery.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
