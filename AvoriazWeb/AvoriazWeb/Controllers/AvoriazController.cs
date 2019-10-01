@@ -10,13 +10,13 @@ namespace AvoriazWeb.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "The map of Avoriaz:";
+
             return View();
         }
 
-        public ActionResult Map()
+        public ActionResult EachDay()
         {
-            ViewBag.Message = "The map of Avoriaz:";
-
             return View();
         }
 
