@@ -161,6 +161,7 @@
     <Content Include="Content\Images\prev.png" />
     <Content Include="Content\Images\town.jpg" />
     <Content Include="Content\Images\worldMap.jpg" />
+    <Content Include="Content\Images\worldMap.png" />
     <Content Include="Content\lightbox.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
