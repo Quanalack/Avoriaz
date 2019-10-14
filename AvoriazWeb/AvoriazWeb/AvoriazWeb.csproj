@@ -144,6 +144,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AvoriazController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ThailandController.cs" />
+    <Compile Include="Controllers\VacationListController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -198,9 +200,13 @@
     <Content Include="Views\Avoriaz\Gallery.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Avoriaz\Index.cshtml" />
-    <Content Include="Views\Avoriaz\_navBar.cshtml" />
+    <Content Include="Views\Avoriaz\navBarAvoriaz.cshtml" />
     <Content Include="Views\Avoriaz\EachDay.cshtml" />
     <Content Include="Views\Shared\_countriesList.cshtml" />
+    <Content Include="Views\Thailand\Index.cshtml" />
+    <Content Include="Views\Thailand\navBarThailand.cshtml" />
+    <Content Include="Views\Thailand\Gallery.cshtml" />
+    <Content Include="Views\VacationList\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
