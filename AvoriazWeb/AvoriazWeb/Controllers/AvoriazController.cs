@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.IO;
 
 namespace AvoriazWeb.Controllers
 {
@@ -20,11 +21,6 @@ namespace AvoriazWeb.Controllers
             return View();
         }
 
-        public ActionResult Gallery()
-        {
-            ViewBag.Message = "A gallery of the pictures taken at Avoriaz.";
-
-            return View();
-        }
+        
     }
 }
