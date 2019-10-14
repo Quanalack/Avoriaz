@@ -199,9 +199,14 @@
     <Content Include="Views\Avoriaz\Index.cshtml" />
     <Content Include="Views\Avoriaz\_navBar.cshtml" />
     <Content Include="Views\Avoriaz\EachDay.cshtml" />
+    <Content Include="Views\Shared\_countriesList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Images\avoriaz\" />
+    <Folder Include="Content\Images\lisbon\" />
+    <Folder Include="Content\Images\newyork\" />
+    <Folder Include="Content\Images\thailand\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
