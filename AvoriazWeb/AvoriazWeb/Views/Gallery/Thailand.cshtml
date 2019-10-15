@@ -11,7 +11,7 @@
 
     @foreach (var imgFile in ViewBag.imageArray)
     {
-    <a href="~/Content/Images/thailand/" data-lightbox="mygallery" data-title="Thailand Image"> <img src="/Content/Images/Thailand/@Path.GetFileName(imgFile)" alt="Thailand image" /> </a>
+    <a href="~/Content/Images/thailand/@Path.GetFileName(imgFile)" data-lightbox="mygallery" data-title="Thailand Image"> <img src="/Content/Images/Thailand/@Path.GetFileName(imgFile)" alt="Thailand image" /> </a>
     }
 
 </div>

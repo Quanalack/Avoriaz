@@ -143,6 +143,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AvoriazController.cs" />
+    <Compile Include="Controllers\DenmarkController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ThailandController.cs" />
@@ -177,6 +178,7 @@
     <Content Include="Content\Images\denmark\72124089_2455192128102542_3760284609707769856_n.jpg" />
     <Content Include="Content\Images\denmark\72131684_1245050665702359_1522689103273918464_n.jpg" />
     <Content Include="Content\Images\denmark\72217170_2437647313113295_5487318404270391296_n.jpg" />
+    <Content Include="Content\Images\denmark\72225601_2421803524605547_6347697900956418048_n.jpg" />
     <Content Include="Content\Images\denmark\72262377_755316518268529_2397489300548616192_n.jpg" />
     <Content Include="Content\Images\denmark\72281127_974486779592912_5528841602627272704_n.jpg" />
     <Content Include="Content\Images\denmark\72302160_614424315761669_4129779611095531520_n.jpg" />
@@ -223,6 +225,7 @@
     <Content Include="Content\Images\lightbox\next.png" />
     <Content Include="Content\Images\lightbox\prev.png" />
     <Content Include="Content\Images\avoriaz\town.jpg" />
+    <Content Include="Content\Images\Maps\Denmark.jpg" />
     <Content Include="Content\Images\Maps\Thailand.png" />
     <Content Include="Content\Images\Maps\World.png" />
     <Content Include="Content\lightbox.min.css" />
@@ -268,6 +271,9 @@
     <Content Include="Views\Thailand\navBarThailand.cshtml" />
     <Content Include="Views\VacationList\Index.cshtml" />
     <Content Include="Views\Gallery\Thailand.cshtml" />
+    <Content Include="Views\Denmark\Index.cshtml" />
+    <Content Include="Views\Denmark\navBarDenmark.cshtml" />
+    <Content Include="Views\Gallery\Denmark.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

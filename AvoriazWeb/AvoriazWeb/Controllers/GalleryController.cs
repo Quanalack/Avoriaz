@@ -38,5 +38,17 @@ namespace AvoriazWeb.Controllers
 
             return View();
         }
+
+        public ActionResult Denmark()
+        {
+            ViewBag.Message = "A gallery of the pictures taken in Denmark.";
+
+            String path = Server.MapPath("/Content/Images/Denmark/");
+            String[] imagefiles = Directory.GetFiles(path);
+
+            ViewBag.imageArray = imagefiles;
+
+            return View();
+        }
     }
 }
